@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanfff.github.io/"/>
-  <updated>2019-07-29T07:44:05.937Z</updated>
+  <updated>2019-07-30T10:09:37.230Z</updated>
   <id>http://fanfff.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo搭建的常见问(keng)题(dian)</title>
+    <link href="http://fanfff.github.io/2019/07/30/exo%E6%90%AD%E5%BB%BA%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE-keng-%E9%A2%98-dian/"/>
+    <id>http://fanfff.github.io/2019/07/30/exo搭建的常见问-keng-题-dian/</id>
+    <published>2019-07-30T09:24:29.000Z</published>
+    <updated>2019-07-30T10:09:37.230Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;对于我这种不会前端的人来说，搭个博客真是快死了，总结一下几天以来遇到过的问题和解决方案。&lt;/p&gt;
+&lt;h2 id=&quot;代码高亮问题&quot;&gt;&lt;a href=&quot;#代码高亮问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Markdown语法</title>
     <link href="http://fanfff.github.io/2019/07/26/test/"/>
     <id>http://fanfff.github.io/2019/07/26/test/</id>
     <published>2019-07-26T09:01:00.000Z</published>
-    <updated>2019-07-29T07:44:05.937Z</updated>
+    <updated>2019-07-30T09:02:18.222Z</updated>
     
     <summary type="html">
     
@@ -37,7 +60,7 @@
     <link href="http://fanfff.github.io/2019/07/25/hello-world/"/>
     <id>http://fanfff.github.io/2019/07/25/hello-world/</id>
     <published>2019-07-25T08:23:00.000Z</published>
-    <updated>2019-07-29T07:43:38.333Z</updated>
+    <updated>2019-07-30T08:25:38.062Z</updated>
     
     <summary type="html">
     

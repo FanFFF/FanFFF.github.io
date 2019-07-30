@@ -4,8 +4,9 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Markdown语法, FanFFF的无聊博客">
-    <meta name="description" content="Markdown语法学习语法简明概述1.分段 两个回车2.换行 两个空格 + 回车3.标题 #~######，#号的个数表示几级标题，即表示一级标题到六级标题4.强调 加粗 ， 加粗 ， 斜体5.引用 &amp;gt; 注意后面紧跟个空格6.表格 ">
+    <meta name="keywords" content="Hexo搭建的常见问(keng)题(dian), FanFFF的无聊博客">
+    <meta name="description" content="对于我这种不会前端的人来说，搭个博客真是快死了，总结一下几天以来遇到过的问题和解决方案。
+代码高亮问题一开始没有熟练掌握markdown语法，没有写出高亮效果，一直以为是插件配置问题，后来发现了一个同样问题的仁兄，是格式问题，正确提供高亮m">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +14,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Markdown语法 | FanFFF的无聊博客</title>
+    <title>Hexo搭建的常见问(keng)题(dian) | FanFFF的无聊博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -260,13 +261,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Markdown语法
+                        Hexo搭建的常见问(keng)题(dian)
                     </div>
                 </div>
             </div>
@@ -388,21 +389,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-07-26
+                    2019-07-30
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        754
+                        1.1k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        4 分
                     </div>
                     
                 
@@ -418,157 +419,62 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h1><h2 id="语法简明概述"><a href="#语法简明概述" class="headerlink" title="语法简明概述"></a>语法简明概述</h2><p>1.分段 两个回车<br>2.换行 两个空格 + 回车<br>3.标题 #~######，#号的个数表示几级标题，即表示一级标题到六级标题<br>4.强调 <strong>加粗</strong> ， <strong>加粗</strong> ， <em>斜体</em><br>5.引用 &gt; 注意后面紧跟个空格<br>6.表格 - 和 | 分割行和列 ， : 控制对其方式<br>7.代码块 三个点<br>8.链接 <a href="https://www.fanfff.cn/" target="_blank" rel="noopener">样例</a><br>9.图片 <img src="/images/pasted-1.png" alt="wtf"><br>地址可以是本地路经，也可以是网络地址<br>10.列表 * ， + ， - ， 1. ，选其中之一，注意后面紧跟个空格  </p>
-<a id="more"></a>
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 一级标题</span></code></pre>
-<p>不好意思没七级标题</p>
-<h2 id="内容强调"><a href="#内容强调" class="headerlink" title="内容强调"></a>内容强调</h2><p>加粗、斜体  </p>
-<h3 id="第一种写法"><a href="#第一种写法" class="headerlink" title="第一种写法"></a>第一种写法</h3><pre class=" language-bash"><code class="language-bash">**加粗**</code></pre>
-<p><strong>加粗</strong>  </p>
-<pre class=" language-bash"><code class="language-bash">*斜体*</code></pre>
-<p>字体 <em>斜体</em>   </p>
-<pre class=" language-bash"><code class="language-bash">***加粗并斜体***</code></pre>
-<p>字体 <strong><em>加粗并斜体</em></strong>   </p>
-<h3 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h3><pre class=" language-bash"><code class="language-bash">__加粗__</code></pre>
-<p>字体 <strong>加粗</strong>  </p>
-<pre class=" language-bash"><code class="language-bash">_斜体_</code></pre>
-<p>字体 <em>斜体</em>  </p>
-<pre class=" language-bash"><code class="language-bash">___加粗并斜体___</code></pre>
-<p>字体 <strong><em>加粗并斜体</em></strong>   </p>
-<h3 id="组合写法"><a href="#组合写法" class="headerlink" title="组合写法"></a>组合写法</h3><pre class=" language-bash"><code class="language-bash">*__加粗并斜体__*</code></pre>
-<p><em><strong>加粗并斜体</strong></em>   </p>
-<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><pre class=" language-bash"><code class="language-bash">这样来 ~~删除一段文本~~</code></pre>
-<p>这样来 <del>删除一段文本</del></p>
-<h2 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h2><pre class=" language-bash"><code class="language-bash">使用<span class="token operator">&lt;</span>code<span class="token operator">></span>\<span class="token variable"><span class="token variable">`</span><span class="token operator">&lt;</span>/code<span class="token operator">></span>来强调字符   
-比如<span class="token variable">`</span></span>突出背景色`来显示强调效果  </code></pre>
-<p>使用<code>`</code>来强调字符<br>比如<code>突出背景色</code>来显示强调效果   </p>
-<h2 id="引用显示"><a href="#引用显示" class="headerlink" title="引用显示"></a>引用显示</h2><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>表格语法：</p>
-<pre class=" language-bash"><code class="language-bash">列1   <span class="token operator">|</span> 列2 <span class="token operator">|</span> 列3 
------ <span class="token operator">|</span> --- <span class="token operator">|</span> ---- 
-第1行 <span class="token operator">|</span> 12  <span class="token operator">|</span> 13  
-第2行 <span class="token operator">|</span> 22  <span class="token operator">|</span> 23  
-第3行 <span class="token operator">|</span> 32  <span class="token operator">|</span> 33  </code></pre>
-<table>
-<thead>
-<tr>
-<th>列1</th>
-<th>列2</th>
-<th>列3</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第1行</td>
-<td>12</td>
-<td>13</td>
-</tr>
-<tr>
-<td>第2行</td>
-<td>22</td>
-<td>23</td>
-</tr>
-<tr>
-<td>第3行</td>
-<td>32</td>
-<td>33</td>
-</tr>
-</tbody></table>
-<p>可以使用冒号来定义对齐方式：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token operator">|</span> 左对齐    <span class="token operator">|</span>  右对齐 <span class="token operator">|</span> 居中 <span class="token operator">|</span>
-<span class="token operator">|</span> :-------- <span class="token operator">|</span> -------:<span class="token operator">|</span> :--: <span class="token operator">|</span>
-<span class="token operator">|</span> Computer  <span class="token operator">|</span> 5000 元 <span class="token operator">|</span>  1台 <span class="token operator">|</span>
-<span class="token operator">|</span> Phone     <span class="token operator">|</span> 1999 元 <span class="token operator">|</span>  1部 <span class="token operator">|</span></code></pre>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐</th>
-<th align="right">右对齐</th>
-<th align="center">居中</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">Computer</td>
-<td align="right">5000 元</td>
-<td align="center">1台</td>
-</tr>
-<tr>
-<td align="left">Phone</td>
-<td align="right">1999 元</td>
-<td align="center">1部</td>
-</tr>
-</tbody></table>
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>代码块语法遵循标准 markdown 代码，使用三个点开始，三个点结束 例如：</p>
-<pre class=" language-bash"><code class="language-bash">```Python
-<span class="token comment" spellcheck="true">#!/usr/bin/env python</span>
-<span class="token comment" spellcheck="true"># -*- coding: utf-8 -*-</span>
-print 'Hello World<span class="token operator">!</span> 
-```</code></pre>
-<h2 id="链接插入"><a href="#链接插入" class="headerlink" title="链接插入"></a>链接插入</h2><pre class=" language-bash"><code class="language-bash"><span class="token punctuation">[</span>首页<span class="token punctuation">]</span><span class="token punctuation">(</span>http://fanfff.cn<span class="token punctuation">)</span>
-<span class="token punctuation">[</span>我的信息<span class="token punctuation">]</span><span class="token punctuation">(</span>/about/<span class="token punctuation">)</span></code></pre>
-<p><a href="http://fanfff.cn" target="_blank" rel="noopener">首页</a><br><a href="/about/">我的信息</a>  </p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>无序列表</p>
-<pre class=" language-bash"><code class="language-bash">* *列表展示
-* *列表展示
- * *列表展示
-+ +列表展示
-+ +列表展示
- + +列表展示
-- -列表展示
-- -列表展示
- - -列表展示</code></pre>
-<ul>
-<li>*列表展示</li>
-<li>*列表展示<ul>
-<li>*列表展示</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>+列表展示</li>
-<li>+列表展示<ul>
-<li>+列表展示</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>-列表展示</li>
-<li>-列表展示<ul>
-<li>-列表展示 </li>
-</ul>
-</li>
-</ul>
-<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>这种方式不用手动设置序号，自动生成列表序列</p>
-<pre class=" language-bash"><code class="language-bash">1. **我是一级序列** 
-1. **我是一级序列** 
-1. **我是一级序列** 
- 1. *我是二级序列* 
- 1. *我是二级序列* 
- 1. *我是二级序列* 
-1. **我是一级序列** 
-1. **我是一级序列** 
- 1. *我是二级序列* 
- 1. *我是二级序列* 
-  1. 还是二级序列，没有三级序列 </code></pre>
-<ol>
-<li><strong>我是一级序列</strong> </li>
-<li><strong>我是一级序列</strong> </li>
-<li><strong>我是一级序列</strong> <ol>
-<li><em>我是二级序列</em> </li>
-<li><em>我是二级序列</em> </li>
-<li><em>我是二级序列</em> </li>
-</ol>
-</li>
-<li><strong>我是一级序列</strong> </li>
-<li><strong>我是一级序列</strong> <ol>
-<li><em>我是二级序列</em> </li>
-<li><em>我是二级序列</em> </li>
-<li>还是二级序列，没有三级序列   </li>
-</ol>
-</li>
-</ol>
-<h2 id="链接自动检测"><a href="#链接自动检测" class="headerlink" title="链接自动检测"></a>链接自动检测</h2><pre class=" language-bash"><code class="language-bash">首页:http://fanfff.cn
-我的信息:http://fanfff.cn/about/</code></pre>
-<p>首页:<a href="http://fanfff.cn" target="_blank" rel="noopener">http://fanfff.cn</a><br>我的信息:<a href="http://fanfff.cn/about/" target="_blank" rel="noopener">http://fanfff.cn/about/</a></p>
-
+                <p>对于我这种不会前端的人来说，搭个博客真是快死了，总结一下几天以来遇到过的问题和解决方案。</p>
+<h2 id="代码高亮问题"><a href="#代码高亮问题" class="headerlink" title="代码高亮问题"></a>代码高亮问题</h2><p>一开始没有熟练掌握markdown语法，没有写出高亮效果，一直以为是插件配置问题，后来发现了一个同样问题的仁兄，是格式问题，正确提供高亮markdown会根据你输入的语言模式来进行匹配，比如：</p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+   <span class="token keyword">double</span> b <span class="token operator">=</span> <span class="token number">0.2</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>需要在代码头部加入对应语言，即可解决</p>
+<h2 id="底部访问数问题"><a href="#底部访问数问题" class="headerlink" title="底部访问数问题"></a>底部访问数问题</h2><p>在没有使用matery主题前，使用yilia主题搭建成功后出于好玩加入了看板娘，毕竟我也是个萝莉控，后搭建matery开启访问统计时，发现底部显示时而好使时而不好使，开启F12检查后发现如下：</p>
+<p><img src="/images/pasted-3.png" alt="谷歌F12检查内容"><br>虽然我对前端不感冒，但是还是明白那个style = “display: none” 不是个好东西，后来查了查，定义如下：<br><strong>display 属性设置或返回元素的显示类型。<br>HTML 中的元素大多是”内联”或”块”元素：一个内联元素，在其左侧和右侧都是浮动内容。一个块元素填满整个行，并没有什么可显示在其左侧或右侧。<br>display 属性还允许作者显示或隐藏一个元素。与 visibility 属性类似。然而，如果您设置 display:none，将隐藏整个元素。</strong><br>MMP，给我隐藏了，好家伙，然后气急败坏的我去footer.ejs文件中寻找源头，把代码改成了如下样子：</p>
+<pre class=" language-html"><code class="language-html"> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">if</span> <span class="token attr-name">(theme.busuanziStatistics</span> <span class="token attr-name">&amp;&amp;</span> <span class="token attr-name">theme.busuanziStatistics.totalTraffic)</span> <span class="token attr-name">{</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_pv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fa fa-heart-o<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span>
+   站总访问量 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_pv<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>white-color<span class="token punctuation">"</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">inline-size</span><span class="token punctuation">:</span> </span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">}</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">if</span> <span class="token attr-name">(theme.busuanziStatistics</span> <span class="token attr-name">&amp;&amp;</span> <span class="token attr-name">theme.busuanziStatistics.totalNumberOfvisitors)</span> <span class="token attr-name">{</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_uv<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fa fa-users<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span>
+   次,<span class="token entity" title="&nbsp;">&amp;nbsp;</span>访客数 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_uv<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>white-color<span class="token punctuation">"</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">inline-size</span><span class="token punctuation">:</span> </span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> 人.
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">}</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>图样图森泡，我以为改了style值就能解决问题，然而没有一点用处。<br>后改成如下：</p>
+<pre class=" language-html"><code class="language-html">
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">if</span> <span class="token attr-name">(theme.busuanziStatistics</span> <span class="token attr-name">&amp;&amp;</span> <span class="token attr-name">theme.busuanziStatistics.totalTraffic)</span> <span class="token attr-name">{</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_pv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fa fa-heart-o<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span>
+     本站总访问量 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_pv<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>white-color<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">}</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">if</span> <span class="token attr-name">(theme.busuanziStatistics</span> <span class="token attr-name">&amp;&amp;</span> <span class="token attr-name">theme.busuanziStatistics.totalNumberOfvisitors)</span> <span class="token attr-name">{</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_uv<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fa fa-users<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span>
+     次,<span class="token entity" title="&nbsp;">&amp;nbsp;</span>访客数 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_uv<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>white-color<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> 人.
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>%</span> <span class="token attr-name">}</span> <span class="token attr-name">%</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>改变了的位置，解决了问题，在html的定义如下：<br><strong><span> 用于对文档中的行内元素进行组合。<br><span> 标签没有固定的格式表现。当对它应用样式时，它才会产生视觉上的变化。如果不对 <span> 应用样式，那么 <span> 元素中的文本与其他文本不会任何视觉上的差异。<br><span> 标签提供了一种将文本的一部分或者文档的一部分独立出来的方式。</span></span></span></span></span></strong><br>按我理解来看，相当于id的值在之前被看板娘的介入在生成时被当做干扰因素给隐藏了，这样写标签相当于强调了一下id的独立性，不被其他元素所干扰。也不知道对不对，但是给我的感觉是这样的，希望能有大神指点迷津。  </p>
+<h2 id="配色问题"><a href="#配色问题" class="headerlink" title="配色问题"></a>配色问题</h2><p>在尝试改变背景配色时，学到了一种CSS语法，可以进行颜色渐变搭配，炫酷的一批。<br>CSS语法：</p>
+<pre class=" language-css"><code class="language-css"><span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>direction,color-stop<span class="token number">1</span>,color-stop<span class="token number">2</span>,<span class="token number">...</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>direction：用角度值指定渐变的方向，可有上下左右搭配组合。<br>color-stop1,color-stop2,…：用于指定渐变的起止颜色。  </p>
+<p>环境：</p>
+<pre class=" language-css"><code class="language-css"><span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-webkit-linear-gradient</span><span class="token punctuation">(</span>red,yellow,blue<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* Safari 5.1-6.0 */</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-o-linear-gradient</span><span class="token punctuation">(</span>red,yellow,blue<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* Opera 11.1-12.0 */</span> 
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">-moz-linear-gradient</span><span class="token punctuation">(</span>red,yellow,blue<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* Firefox 3.6-15 */</span>
+<span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>red,yellow,blue<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 标准语法 */</span></code></pre>
+<p>1、background: linear-gradient(to left,#d3959b,#bfe6ba);<br>to left 设置渐变从右到左</p>
+<p><img src="/images/pasted-10.png" alt="#d3959b→#bfe6ba"><br><img src="/images/pasted-4.png" alt="to left"></p>
+<p>2、background: linear-gradient(to top right,#d3959b,#bfe6ba);<br>to right top = to top right ：从左下角到右上角，对角线角度</p>
+<p><img src="/images/pasted-5.png" alt="to top right"></p>
+<p>3、background: linear-gradient(45deg,#d3959b 20%,#bfe6ba);<br>用百分比指定起始颜色的位置，默认值为0%；</p>
+<p><img src="/images/pasted-6.png" alt="45 deg 20%"></p>
+<p>4、background: linear-gradient(to right,#feac5e,#c779d0,#4bc0c8);<br>三种颜色渐进</p>
+<p><img src="/images/pasted-9.png" alt="#feac5e→#c779d0→#4bc0c8"><br><img src="/images/pasted-7.png" alt="three color"></p>
+<p>5、background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));<br>增加透明度</p>
+<p><img src="/images/pasted-8.png" alt="three color 0.5"></p>
+<p>本站使用样例4。</p>
+<h2 id="转载问题"><a href="#转载问题" class="headerlink" title="转载问题"></a>转载问题</h2><h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2>
             </div>
             <hr/>
 
@@ -753,7 +659,7 @@ print 'Hello World<span class="token operator">!</span>
         repo: '',
         owner: '',
         admin: null,
-        id: '2019-07-26T17-01-00',
+        id: '2019-07-30T17-24-29',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -774,9 +680,10 @@ print 'Hello World<span class="token operator">!</span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/07/30/exo搭建的常见问-keng-题-dian/">
                     <div class="card-image">
@@ -795,9 +702,9 @@ print 'Hello World<span class="token operator">!</span>
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-30
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-30
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
@@ -806,6 +713,7 @@ print 'Hello World<span class="token operator">!</span>
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -816,29 +724,24 @@ print 'Hello World<span class="token operator">!</span>
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/07/25/hello-world/">
+                <a href="/2019/07/26/test/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="hello-world之狂喷宋溪桐">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Markdown语法">
                         
-                        <span class="card-title">hello-world之狂喷宋溪桐</span>
+                        <span class="card-title">Markdown语法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            为庆祝本站顺利搭建，我将于此把hello-world文件修改为对宋溪桐-花老板的无上赞美，献祭鸽子王对摸黑天团的至高贡献，来预祝Fanfff小站日益升腾！
-宋溪桐七宗罪打游戏咕
-吃饭咕
-秀对象别想了放弃你的团团然后加入帆哥吧！
-
-
+                            Markdown语法学习语法简明概述1.分段 两个回车2.换行 两个空格 + 回车3.标题 #~######，#号的个数表示几级标题，即表示一级标题到六级标题4.强调 加粗 ， 加粗 ， 斜体5.引用 &gt; 注意后面紧跟个空格6.表格 
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-25
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-26
                             </span>
                         <span class="publish-author">
                             
