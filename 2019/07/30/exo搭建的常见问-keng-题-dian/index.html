@@ -120,7 +120,7 @@
         <div class="logo-name">FanFFF的无聊博客</div>
         <div class="logo-desc">
             
-            给我闲完了
+            别吐槽我的背景，我就是萝莉控了咋滴吧
             
         </div>
     </div>
@@ -376,9 +376,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/经验/" target="_blank">
+                                <span class="chip bg-color">经验</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -405,14 +409,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.3k
+                        1.8k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        5 分
+                        7 分
                     </div>
                     
                 
@@ -499,8 +503,24 @@ public class main(){
 <p><img src="/images/pasted-9.png" alt="#feac5e→#c779d0→#4bc0c8"><br><img src="/images/pasted-7.png" alt="three color"></p>
 <p>5、background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));<br>增加透明度</p>
 <p><img src="/images/pasted-8.png" alt="three color 0.5"></p>
-<p>本站使用样例4。</p>
-<h2 id="转载问题"><a href="#转载问题" class="headerlink" title="转载问题"></a>转载问题</h2><h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2>
+<p>本站使用样例4，还有部署到git后，对于颜色的延迟会很大，耐心等待一阵子即可。   </p>
+<h2 id="评论问题"><a href="#评论问题" class="headerlink" title="评论问题"></a>评论问题</h2><p>本站使用Gitalk模块，先是去github里注册个Application，长这个样子：</p>
+<p><img src="/images/pasted-12.png" alt="Oavth app"></p>
+<p>配置完相关Yml后，就是一个经常出现的问题，没有初始化评论仓库，在评论模块暂时会显示这样：</p>
+<p><img src="/images/pasted-14.png" alt="未初始化"><br>可是点击登录并没有按正常情况跳转登录界面，而是返回了主页，而且可以发现，主页地址很jr复杂：</p>
+<pre class=" language-bash"><code class="language-bash">https://www.fanfff.cn/?error<span class="token operator">=</span>redirect_uri_mismatch<span class="token operator">&amp;</span>error_description<span class="token operator">=</span>The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.<span class="token operator">&amp;</span>error_uri<span class="token operator">=</span>https%3A%2F%2Fdeveloper.github.com%2Fapps%2Fmanaging-oauth-apps%2Ftroubleshooting-authorization-request-errors%2F%23redirect-uri-mismatch
+</code></pre>
+<p>好奇心使我死亡，但是无奈我看不懂这一串乱七八糟的东西，一气之下去翻了一下<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">github文档</a>，还好比英语阅读题简单看一点，我找到了可能解释这个问题的地方：</p>
+<p><img src="/images/pasted-15.png" alt="文档内容"><br>意思是链接不匹配就会跳转会我设置的主页，于是乎检查了一下所有有关Gitalk的配置文件中的地址，最后、、、、、、我就自闭了<br><img src="/images/pasted-12.png" alt="Oavth app"><br>嘿嘿，在使用F12检查login的回调地址，全是redirect_uri https:开头，我写了个http、、、</p>
+<p><img src="/images/pasted-16.png" alt="不想说话"></p>
+<h2 id="hexo-admin使用问题"><a href="#hexo-admin使用问题" class="headerlink" title="hexo admin使用问题"></a>hexo admin使用问题</h2><p>admin可以直接复制图片到编辑板然后自动放在对应文件夹下的功能是不错，但是一般复制过来之后的图片调用一般都是这个形式</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token operator">!</span><span class="token punctuation">[</span><span class="token punctuation">..</span>.<span class="token punctuation">]</span><span class="token punctuation">(</span>\\images\pasted-0.png\<span class="token punctuation">)</span></code></pre>
+<p>额…把前后的\去掉就可以在界面实时显示图片，这样</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token operator">!</span><span class="token punctuation">[</span><span class="token punctuation">..</span>.<span class="token punctuation">]</span><span class="token punctuation">(</span>\images\pasted-0.png<span class="token punctuation">)</span></code></pre>
+<p>但是嘞，部署后就不显示了，把\改成/就可以，是啥意思嘛？？？</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token operator">!</span><span class="token punctuation">[</span><span class="token punctuation">..</span>.<span class="token punctuation">]</span><span class="token punctuation">(</span>/images/pasted-0.png<span class="token punctuation">)</span></code></pre>
+<p>也不到是我自己问题还是框架给留了个坑，讲道理/和\不是一家的么，不是很懂。</p>
+<h2 id="转载问题"><a href="#转载问题" class="headerlink" title="转载问题"></a>转载问题</h2><h2 id="标签问题"><a href="#标签问题" class="headerlink" title="标签问题"></a>标签问题</h2><h2 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h2>
             </div>
             <hr/>
 
@@ -723,8 +743,7 @@ public class main(){
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            对于我这种不会前端的人来说，搭个博客真是快死了，总结一下几天以来遇到过的问题和解决方案。
-代码高亮问题一开始没有熟练掌握markdown语法，没有写出高亮效果，一直以为是插件配置问题，后来发现了一个同样问题的仁兄，是格式问题，正确提供高亮m
+                            总结一些本人在建站过程中遇到的坑爹问题，进步在于总结，希望能在这类问题上引以为戒、
                         
                     </div>
                     <div class="publish-info">
@@ -744,6 +763,14 @@ public class main(){
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/经验/" target="_blank">
+                        <span class="chip bg-color">经验</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -898,7 +925,7 @@ public class main(){
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">2.2k</span>
+                <span class="white-color">2.6k</span>
             
 
             
