@@ -48,13 +48,15 @@
     <link href="http://fanfff.github.io/2019/07/26/test/"/>
     <id>http://fanfff.github.io/2019/07/26/test/</id>
     <published>2019-07-26T09:01:00.000Z</published>
-    <updated>2019-07-30T09:02:18.222Z</updated>
+    <updated>2019-08-02T03:48:42.024Z</updated>
     
     <summary type="html">
     
       &lt;h1 id=&quot;Markdown语法学习&quot;&gt;&lt;a href=&quot;#Markdown语法学习&quot; class=&quot;headerlink&quot; title=&quot;Markdown语法学习&quot;&gt;&lt;/a&gt;Markdown语法学习&lt;/h1&gt;&lt;h2 id=&quot;语法简明概述&quot;&gt;&lt;a href=&quot;#语法简明概述&quot; class=&quot;headerlink&quot; title=&quot;语法简明概述&quot;&gt;&lt;/a&gt;语法简明概述&lt;/h2&gt;&lt;p&gt;1.分段 两个回车&lt;br&gt;2.换行 两个空格 + 回车&lt;br&gt;3.标题 #~######，#号的个数表示几级标题，即表示一级标题到六级标题&lt;br&gt;4.强调 &lt;strong&gt;加粗&lt;/strong&gt; ， &lt;strong&gt;加粗&lt;/strong&gt; ， &lt;em&gt;斜体&lt;/em&gt;&lt;br&gt;5.引用 &amp;gt; 注意后面紧跟个空格&lt;br&gt;6.表格 - 和 | 分割行和列 ， : 控制对其方式&lt;br&gt;7.代码块 三个点&lt;br&gt;8.链接 &lt;a href=&quot;https://www.fanfff.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;样例&lt;/a&gt;&lt;br&gt;9.图片 &lt;img src=&quot;/images/pasted-1.png&quot; alt=&quot;wtf&quot;&gt;&lt;br&gt;地址可以是本地路经，也可以是网络地址&lt;br&gt;10.列表 * ， + ， - ， 1. ，选其中之一，注意后面紧跟个空格  &lt;/p&gt;
     
     </summary>
+    
+      <category term="hexo" scheme="http://fanfff.github.io/categories/hexo/"/>
     
     
   </entry>
@@ -64,7 +66,7 @@
     <link href="http://fanfff.github.io/2019/07/25/hello-world/"/>
     <id>http://fanfff.github.io/2019/07/25/hello-world/</id>
     <published>2019-07-25T08:23:00.000Z</published>
-    <updated>2019-08-01T09:16:35.911Z</updated>
+    <updated>2019-08-02T03:49:29.199Z</updated>
     
     <summary type="html">
     
