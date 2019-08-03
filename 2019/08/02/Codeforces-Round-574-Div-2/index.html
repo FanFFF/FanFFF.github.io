@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Markdown语法, FanFFF的无聊博客">
-    <meta name="description" content="Markdown语法学习语法简明概述1.分段 两个回车2.换行 两个空格 + 回车3.标题 #~######，#号的个数表示几级标题，即表示一级标题到六级标题4.强调 加粗 ， 加粗 ， 斜体5.引用 &amp;gt; 注意后面紧跟个空格6.表格 ">
+    <meta name="keywords" content="Codeforces Round #574 (Div. 2), FanFFF的无聊博客">
+    <meta name="description" content="A. Drinks Choosing有n个学生，k种饮料，a1~ai是第i个学生最喜欢的饮料，可以订n/2箱饮料，一箱两瓶，一人一瓶，如果多出来饮料则由老师喝掉，问学生喝到自己喜欢饮料的最大人数是多少？思路：记录喜欢每个口味的人数，然后以2">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Markdown语法 | FanFFF的无聊博客</title>
+    <title>Codeforces Round #574 (Div. 2) | FanFFF的无聊博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -260,13 +260,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Markdown语法
+                        Codeforces Round #574 (Div. 2)
                     </div>
                 </div>
             </div>
@@ -377,8 +377,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/markdown/" target="_blank">
-                                <span class="chip bg-color">markdown</span>
+                            <a href="/tags/codeforce/" target="_blank">
+                                <span class="chip bg-color">codeforce</span>
+                            </a>
+                        
+                            <a href="/tags/algorithm/" target="_blank">
+                                <span class="chip bg-color">algorithm</span>
                             </a>
                         
                     </div>
@@ -389,8 +393,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/hexo/" class="post-category" target="_blank">
-                                hexo
+                            <a href="/categories/ACM/" class="post-category" target="_blank">
+                                ACM
                             </a>
                         
                     </div>
@@ -401,21 +405,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-07-26
+                    2019-08-02
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        754
+                        628
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        3 分
                     </div>
                     
                 
@@ -432,156 +436,83 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Markdown语法学习"><a href="#Markdown语法学习" class="headerlink" title="Markdown语法学习"></a>Markdown语法学习</h1><h2 id="语法简明概述"><a href="#语法简明概述" class="headerlink" title="语法简明概述"></a>语法简明概述</h2><p>1.分段 两个回车<br>2.换行 两个空格 + 回车<br>3.标题 #~######，#号的个数表示几级标题，即表示一级标题到六级标题<br>4.强调 <strong>加粗</strong> ， <strong>加粗</strong> ， <em>斜体</em><br>5.引用 &gt; 注意后面紧跟个空格<br>6.表格 - 和 | 分割行和列 ， : 控制对其方式<br>7.代码块 三个点<br>8.链接 <a href="https://www.fanfff.cn/" target="_blank" rel="noopener">样例</a><br>9.图片 <img src="/images/pasted-1.png" alt="wtf"><br>地址可以是本地路经，也可以是网络地址<br>10.列表 * ， + ， - ， 1. ，选其中之一，注意后面紧跟个空格  </p>
-<a id="more"></a>
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre class=" language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 一级标题</span></code></pre>
-<p>不好意思没七级标题</p>
-<h2 id="内容强调"><a href="#内容强调" class="headerlink" title="内容强调"></a>内容强调</h2><p>加粗、斜体  </p>
-<h3 id="第一种写法"><a href="#第一种写法" class="headerlink" title="第一种写法"></a>第一种写法</h3><pre class=" language-bash"><code class="language-bash">**加粗**</code></pre>
-<p><strong>加粗</strong>  </p>
-<pre class=" language-bash"><code class="language-bash">*斜体*</code></pre>
-<p>字体 <em>斜体</em>   </p>
-<pre class=" language-bash"><code class="language-bash">***加粗并斜体***</code></pre>
-<p>字体 <strong><em>加粗并斜体</em></strong>   </p>
-<h3 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h3><pre class=" language-bash"><code class="language-bash">__加粗__</code></pre>
-<p>字体 <strong>加粗</strong>  </p>
-<pre class=" language-bash"><code class="language-bash">_斜体_</code></pre>
-<p>字体 <em>斜体</em>  </p>
-<pre class=" language-bash"><code class="language-bash">___加粗并斜体___</code></pre>
-<p>字体 <strong><em>加粗并斜体</em></strong>   </p>
-<h3 id="组合写法"><a href="#组合写法" class="headerlink" title="组合写法"></a>组合写法</h3><pre class=" language-bash"><code class="language-bash">*__加粗并斜体__*</code></pre>
-<p><em><strong>加粗并斜体</strong></em>   </p>
-<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><pre class=" language-bash"><code class="language-bash">这样来 ~~删除一段文本~~</code></pre>
-<p>这样来 <del>删除一段文本</del></p>
-<h2 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h2><pre class=" language-bash"><code class="language-bash">使用<span class="token operator">&lt;</span>code<span class="token operator">></span>\<span class="token variable"><span class="token variable">`</span><span class="token operator">&lt;</span>/code<span class="token operator">></span>来强调字符   
-比如<span class="token variable">`</span></span>突出背景色`来显示强调效果  </code></pre>
-<p>使用<code>`</code>来强调字符<br>比如<code>突出背景色</code>来显示强调效果   </p>
-<h2 id="引用显示"><a href="#引用显示" class="headerlink" title="引用显示"></a>引用显示</h2><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>表格语法：</p>
-<pre class=" language-bash"><code class="language-bash">列1   <span class="token operator">|</span> 列2 <span class="token operator">|</span> 列3 
------ <span class="token operator">|</span> --- <span class="token operator">|</span> ---- 
-第1行 <span class="token operator">|</span> 12  <span class="token operator">|</span> 13  
-第2行 <span class="token operator">|</span> 22  <span class="token operator">|</span> 23  
-第3行 <span class="token operator">|</span> 32  <span class="token operator">|</span> 33  </code></pre>
-<table>
-<thead>
-<tr>
-<th>列1</th>
-<th>列2</th>
-<th>列3</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第1行</td>
-<td>12</td>
-<td>13</td>
-</tr>
-<tr>
-<td>第2行</td>
-<td>22</td>
-<td>23</td>
-</tr>
-<tr>
-<td>第3行</td>
-<td>32</td>
-<td>33</td>
-</tr>
-</tbody></table>
-<p>可以使用冒号来定义对齐方式：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token operator">|</span> 左对齐    <span class="token operator">|</span>  右对齐 <span class="token operator">|</span> 居中 <span class="token operator">|</span>
-<span class="token operator">|</span> :-------- <span class="token operator">|</span> -------:<span class="token operator">|</span> :--: <span class="token operator">|</span>
-<span class="token operator">|</span> Computer  <span class="token operator">|</span> 5000 元 <span class="token operator">|</span>  1台 <span class="token operator">|</span>
-<span class="token operator">|</span> Phone     <span class="token operator">|</span> 1999 元 <span class="token operator">|</span>  1部 <span class="token operator">|</span></code></pre>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐</th>
-<th align="right">右对齐</th>
-<th align="center">居中</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">Computer</td>
-<td align="right">5000 元</td>
-<td align="center">1台</td>
-</tr>
-<tr>
-<td align="left">Phone</td>
-<td align="right">1999 元</td>
-<td align="center">1部</td>
-</tr>
-</tbody></table>
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>代码块语法遵循标准 markdown 代码，使用三个点开始，三个点结束 例如：</p>
-<pre class=" language-bash"><code class="language-bash">```Python
-<span class="token comment" spellcheck="true">#!/usr/bin/env python</span>
-<span class="token comment" spellcheck="true"># -*- coding: utf-8 -*-</span>
-print 'Hello World<span class="token operator">!</span> 
-```</code></pre>
-<h2 id="链接插入"><a href="#链接插入" class="headerlink" title="链接插入"></a>链接插入</h2><pre class=" language-bash"><code class="language-bash"><span class="token punctuation">[</span>首页<span class="token punctuation">]</span><span class="token punctuation">(</span>http://fanfff.cn<span class="token punctuation">)</span>
-<span class="token punctuation">[</span>我的信息<span class="token punctuation">]</span><span class="token punctuation">(</span>/about/<span class="token punctuation">)</span></code></pre>
-<p><a href="http://fanfff.cn" target="_blank" rel="noopener">首页</a><br><a href="/about/">我的信息</a>  </p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>无序列表</p>
-<pre class=" language-bash"><code class="language-bash">* *列表展示
-* *列表展示
- * *列表展示
-+ +列表展示
-+ +列表展示
- + +列表展示
-- -列表展示
-- -列表展示
- - -列表展示</code></pre>
-<ul>
-<li>*列表展示</li>
-<li>*列表展示<ul>
-<li>*列表展示</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>+列表展示</li>
-<li>+列表展示<ul>
-<li>+列表展示</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>-列表展示</li>
-<li>-列表展示<ul>
-<li>-列表展示 </li>
-</ul>
-</li>
-</ul>
-<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>这种方式不用手动设置序号，自动生成列表序列</p>
-<pre class=" language-bash"><code class="language-bash">1. **我是一级序列** 
-1. **我是一级序列** 
-1. **我是一级序列** 
- 1. *我是二级序列* 
- 1. *我是二级序列* 
- 1. *我是二级序列* 
-1. **我是一级序列** 
-1. **我是一级序列** 
- 1. *我是二级序列* 
- 1. *我是二级序列* 
-  1. 还是二级序列，没有三级序列 </code></pre>
-<ol>
-<li><strong>我是一级序列</strong> </li>
-<li><strong>我是一级序列</strong> </li>
-<li><strong>我是一级序列</strong> <ol>
-<li><em>我是二级序列</em> </li>
-<li><em>我是二级序列</em> </li>
-<li><em>我是二级序列</em> </li>
-</ol>
-</li>
-<li><strong>我是一级序列</strong> </li>
-<li><strong>我是一级序列</strong> <ol>
-<li><em>我是二级序列</em> </li>
-<li><em>我是二级序列</em> </li>
-<li>还是二级序列，没有三级序列   </li>
-</ol>
-</li>
-</ol>
-<h2 id="链接自动检测"><a href="#链接自动检测" class="headerlink" title="链接自动检测"></a>链接自动检测</h2><pre class=" language-bash"><code class="language-bash">首页:http://fanfff.cn
-我的信息:http://fanfff.cn/about/</code></pre>
-<p>首页:<a href="http://fanfff.cn" target="_blank" rel="noopener">http://fanfff.cn</a><br>我的信息:<a href="http://fanfff.cn/about/" target="_blank" rel="noopener">http://fanfff.cn/about/</a></p>
+                <h2 id="A-Drinks-Choosing"><a href="#A-Drinks-Choosing" class="headerlink" title="A. Drinks Choosing"></a>A. Drinks Choosing</h2><p>有n个学生，k种饮料，a1~ai是第i个学生最喜欢的饮料，可以订n/2箱饮料，一箱两瓶，一人一瓶，如果多出来饮料则由老师喝掉，问学生喝到自己喜欢饮料的最大人数是多少？<br><strong>思路</strong>：记录喜欢每个口味的人数，然后以2为基数往下减，最后剩下一堆1人的情况，满足一半即可。</p>
+<pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">"bits/stdc++.h"</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token number">1005</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> mp<span class="token punctuation">[</span><span class="token number">1005</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">,</span> k<span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> n <span class="token operator">>></span> k<span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        mp<span class="token punctuation">[</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">int</span> cnt <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> k<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        ans <span class="token operator">+</span><span class="token operator">=</span> mp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
+        cnt <span class="token operator">+</span><span class="token operator">=</span> mp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    ans <span class="token operator">*</span><span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    ans <span class="token operator">+</span><span class="token operator">=</span> <span class="token punctuation">(</span>cnt <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    cout <span class="token operator">&lt;&lt;</span> ans <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="B-Sport-Mafia"><a href="#B-Sport-Mafia" class="headerlink" title="B. Sport Mafia"></a>B. Sport Mafia</h2><p>要求用恰好n次操作使最终糖果数为k，操作规则：<br>1.加入数量为上一次加入糖果+1的糖果。<br>2.吃掉一个糖果<br>问一共吃掉多少糖果？<br><strong>思路</strong>：假设放了 $m$次糖果，那么吃糖果的次数q为 $q=n-m$ 。<br>则有公式：$k+q=((m+1)\times m)/2$<br>化简得：$m\times (m+3)=2\times(n+k)$<br>复杂度$O(\sqrt[2]{n+k})$ 可直接搜索</p>
+<pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">"bits/stdc++.h"</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token number">1005</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> n<span class="token punctuation">,</span>k<span class="token punctuation">;</span>
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%lld %lld"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">,</span><span class="token operator">&amp;</span>k<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">*</span>i <span class="token operator">&lt;=</span> <span class="token punctuation">(</span>n<span class="token operator">+</span>k<span class="token punctuation">)</span><span class="token operator">*</span><span class="token number">2</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i<span class="token operator">*</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">==</span><span class="token punctuation">(</span>n<span class="token operator">+</span>k<span class="token punctuation">)</span><span class="token operator">*</span><span class="token number">2</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            ans <span class="token operator">=</span> n <span class="token operator">-</span> i<span class="token punctuation">;</span>
+            <span class="token keyword">break</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%lld\n"</span><span class="token punctuation">,</span>ans<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<h2 id="C"><a href="#C" class="headerlink" title="C."></a>C.</h2><p>有两排人每排n个，从左到右为1 - n, 然后从中选出任意个人，但是又一定的规则<br>1.连续的两个人不能再同一行<br>2.下一个人的下标一定要比前一个大<br>问能选出来的人的身高最多又多大？<br><strong>思路</strong>：典型的动态规划，线性跑一遍维护最大值即可<br>状态转移方程：<br>$dp[i][0] = max(dp[i - 1][0], dp[i - 1][1] + a[i])$<br>$dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] + b[i])$</p>
+<pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">"bits/stdc++.h"</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token number">100005</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> b<span class="token punctuation">[</span><span class="token number">100005</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> dp<span class="token punctuation">[</span><span class="token number">100005</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%lld"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%lld"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>b<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    dp<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    dp<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> b<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dp<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">+</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dp<span class="token punctuation">[</span>i<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">+</span>b<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">long</span> <span class="token keyword">long</span> <span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dp<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%lld\n"</span><span class="token punctuation">,</span>ans<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="D1-Submarine-in-the-Rybinsk-Sea-easy-edition"><a href="#D1-Submarine-in-the-Rybinsk-Sea-easy-edition" class="headerlink" title="D1. Submarine in the Rybinsk Sea (easy edition)"></a>D1. Submarine in the Rybinsk Sea (easy edition)</h2><p>没鸡儿读懂</p>
+<h2 id="D2-Submarine-in-the-Rybinsk-Sea-hard-edition"><a href="#D2-Submarine-in-the-Rybinsk-Sea-hard-edition" class="headerlink" title="D2. Submarine in the Rybinsk Sea (hard edition)"></a>D2. Submarine in the Rybinsk Sea (hard edition)</h2><p>待补</p>
 
             </div>
             <hr/>
@@ -744,7 +675,7 @@ print 'Hello World<span class="token operator">!</span>
         repo: 'blog-talk',
         owner: 'FanFFF',
         admin: ["fanfff"],
-        id: '2019-07-26T17-01-00',
+        id: '2019-08-02T14-17-30',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -769,6 +700,59 @@ print 'Hello World<span class="token operator">!</span>
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/2019/08/03/改编版的c-遗传算法/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="一个c++版的遗传算法">
+                        
+                        <span class="card-title">一个c++版的遗传算法</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            适用于作业车间调度问题，就当在这保存一下，毕竟弄了挺久的，java版的在github上，要的记几去看吧。
+#include&lt;bits/stdc++.h>
+using namespace std;
+
+const long populat
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-03
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/工程算法/" class="post-category" target="_blank">
+                                    工程算法
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/algorithm/" target="_blank">
+                        <span class="chip bg-color">algorithm</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/2019/07/30/exo搭建的常见问-keng-题-dian/">
                     <div class="card-image">
                         
@@ -785,9 +769,9 @@ print 'Hello World<span class="token operator">!</span>
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-30
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-30
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -807,47 +791,6 @@ print 'Hello World<span class="token operator">!</span>
                         <span class="chip bg-color">经验</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2019/07/25/hello-world/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/my-img/0.jpg" class="responsive-img" alt="hello-world之狂喷宋溪桐">
-                        
-                        <span class="card-title">hello-world之狂喷宋溪桐</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            为庆祝本站顺利搭建，我将于此把hello-world文件修改为对宋溪桐-花老板的无上赞美，献祭鸽子王对摸黑天团的至高贡献，来预祝Fanfff小站日益升腾！
-宋溪桐七宗罪打游戏咕
-吃饭咕
-秀对象别想了放弃你的团团然后加入帆哥吧！
-
-
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-25
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            帆哥牛逼
-                            
-                        </span>
-                    </div>
                 </div>
                 
             </div>
@@ -956,6 +899,13 @@ print 'Hello World<span class="token operator">!</span>
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 <footer class="page-footer bg-color">
     <div class="container row center-align">

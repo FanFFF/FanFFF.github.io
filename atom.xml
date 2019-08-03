@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanfff.github.io/"/>
-  <updated>2019-08-02T05:56:29.335Z</updated>
+  <updated>2019-08-03T08:14:22.873Z</updated>
   <id>http://fanfff.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>针对Matery主题的Hexo搭建中的常见问(keng)题(dian)</title>
-    <link href="http://fanfff.github.io/2019/07/30/exo%E6%90%AD%E5%BB%BA%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE-keng-%E9%A2%98-dian/"/>
-    <id>http://fanfff.github.io/2019/07/30/exo搭建的常见问-keng-题-dian/</id>
-    <published>2019-07-30T09:24:29.000Z</published>
-    <updated>2019-08-02T05:56:29.335Z</updated>
+    <title>一个c++版的遗传算法</title>
+    <link href="http://fanfff.github.io/2019/08/03/%E6%94%B9%E7%BC%96%E7%89%88%E7%9A%84c-%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95/"/>
+    <id>http://fanfff.github.io/2019/08/03/改编版的c-遗传算法/</id>
+    <published>2019-08-03T06:47:22.000Z</published>
+    <updated>2019-08-03T08:14:22.873Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,62 @@
       
         
         
-          &lt;p&gt;对于我这种不会前端的人来说，搭个博客真是快死了，总结一下几天以来遇到过的问题和解决方案。&lt;/p&gt;
+          &lt;p&gt;适用于作业车间调度问题，就当在这保存一下，毕竟弄了挺久的，java版的在github上，要的记几去看吧。&lt;/p&gt;
+&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro
+        
+      
+    
+    </summary>
+    
+      <category term="工程算法" scheme="http://fanfff.github.io/categories/%E5%B7%A5%E7%A8%8B%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="algorithm" scheme="http://fanfff.github.io/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Codeforces Round #574 (Div. 2)</title>
+    <link href="http://fanfff.github.io/2019/08/02/Codeforces-Round-574-Div-2/"/>
+    <id>http://fanfff.github.io/2019/08/02/Codeforces-Round-574-Div-2/</id>
+    <published>2019-08-02T06:17:30.000Z</published>
+    <updated>2019-08-03T08:50:23.834Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;A-Drinks-Choosing&quot;&gt;&lt;a href=&quot;#A-Drinks-Choosing&quot; class=&quot;headerlink&quot; title=&quot;A. Drinks Choosing&quot;&gt;&lt;/a&gt;A. Drinks
+        
+      
+    
+    </summary>
+    
+      <category term="ACM" scheme="http://fanfff.github.io/categories/ACM/"/>
+    
+    
+      <category term="codeforce" scheme="http://fanfff.github.io/tags/codeforce/"/>
+    
+      <category term="algorithm" scheme="http://fanfff.github.io/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>针对Matery主题的Hexo搭建中的常见问(keng)题(dian)</title>
+    <link href="http://fanfff.github.io/2019/07/30/exo%E6%90%AD%E5%BB%BA%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE-keng-%E9%A2%98-dian/"/>
+    <id>http://fanfff.github.io/2019/07/30/exo搭建的常见问-keng-题-dian/</id>
+    <published>2019-07-30T09:24:29.000Z</published>
+    <updated>2019-08-02T06:08:44.103Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;对于我这种不会前端的人来说，搭个博客真是快死了，总结一下几天以来遇到过的问题和解决方案。   &lt;/p&gt;
 &lt;h2 id=&quot;代码高亮问题&quot;&gt;&lt;a href=&quot;#代码高亮问题&quot; class=&quot;headerlink&quot;
         
       
@@ -48,7 +103,7 @@
     <link href="http://fanfff.github.io/2019/07/26/test/"/>
     <id>http://fanfff.github.io/2019/07/26/test/</id>
     <published>2019-07-26T09:01:00.000Z</published>
-    <updated>2019-08-02T03:48:42.024Z</updated>
+    <updated>2019-08-02T06:06:41.819Z</updated>
     
     <summary type="html">
     
@@ -59,6 +114,8 @@
       <category term="hexo" scheme="http://fanfff.github.io/categories/hexo/"/>
     
     
+      <category term="markdown" scheme="http://fanfff.github.io/tags/markdown/"/>
+    
   </entry>
   
   <entry>
@@ -66,7 +123,7 @@
     <link href="http://fanfff.github.io/2019/07/25/hello-world/"/>
     <id>http://fanfff.github.io/2019/07/25/hello-world/</id>
     <published>2019-07-25T08:23:00.000Z</published>
-    <updated>2019-08-02T03:49:29.199Z</updated>
+    <updated>2019-08-03T08:09:07.032Z</updated>
     
     <summary type="html">
     
