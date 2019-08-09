@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanfff.github.io/"/>
-  <updated>2019-08-03T08:14:22.873Z</updated>
+  <updated>2019-08-09T16:21:41.602Z</updated>
   <id>http://fanfff.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown math 数学公式语法</title>
+    <link href="http://fanfff.github.io/2019/08/09/markdown-math-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E8%AF%AD%E6%B3%95/"/>
+    <id>http://fanfff.github.io/2019/08/09/markdown-math-数学公式语法/</id>
+    <published>2019-08-09T11:34:19.000Z</published>
+    <updated>2019-08-09T16:21:41.602Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1．插入公式&quot;&gt;&lt;a href=&quot;#1．插入公式&quot; class=&quot;headerlink&quot; title=&quot;1．插入公式&quot;&gt;&lt;/a&gt;1．插入公式&lt;/h2&gt;&lt;p&gt;$\LaTeX$
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://fanfff.github.io/categories/hexo/"/>
+    
+    
+      <category term="markdown" scheme="http://fanfff.github.io/tags/markdown/"/>
+    
+      <category term="经验" scheme="http://fanfff.github.io/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>一个c++版的遗传算法</title>
@@ -48,7 +76,7 @@
     <link href="http://fanfff.github.io/2019/08/02/Codeforces-Round-574-Div-2/"/>
     <id>http://fanfff.github.io/2019/08/02/Codeforces-Round-574-Div-2/</id>
     <published>2019-08-02T06:17:30.000Z</published>
-    <updated>2019-08-03T08:52:07.147Z</updated>
+    <updated>2019-08-08T04:51:26.793Z</updated>
     
     <summary type="html">
     
