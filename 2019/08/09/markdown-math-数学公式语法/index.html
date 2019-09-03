@@ -5,12 +5,18 @@
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="Markdown math 数学公式语法, FanFFF的无聊博客">
-    <meta name="description" content="1．插入公式$\LaTeX$ 的数学公式有两种：行中公式和独立公式。行中公式放在文中与其它文字混编，独立公式单独成行。
+    <meta name="description" content="1．插入公式
 行中公式可以用如下方法表示：
 $ 数学公式 $
+
 独立公式可以用如下方法表示：
 $$ 数学公式 $$
-自动编号的公式可以用">
+
+自动编号的公式可以用如下方法表示：  
+\begin{equation}
+数学公式
+\label{eq:当前公式名}
+\e">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -417,7 +423,7 @@ $$ 数学公式 $$
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        2.6k
+                        2.5k
                     </div>
                     
 
@@ -441,16 +447,20 @@ $$ 数学公式 $$
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1．插入公式"><a href="#1．插入公式" class="headerlink" title="1．插入公式"></a>1．插入公式</h2><p>$\LaTeX$ 的数学公式有两种：行中公式和独立公式。行中公式放在文中与其它文字混编，独立公式单独成行。</p>
-<p>行中公式可以用如下方法表示：</p>
+                <h2 id="1．插入公式"><a href="#1．插入公式" class="headerlink" title="1．插入公式"></a>1．插入公式</h2><ul>
+<li><p>行中公式可以用如下方法表示：</p>
 <pre class=" language-java"><code class="language-java">$ 数学公式 $</code></pre>
-<p>独立公式可以用如下方法表示：</p>
+</li>
+<li><p>独立公式可以用如下方法表示：</p>
 <pre class=" language-java"><code class="language-java">$$ 数学公式 $$</code></pre>
-<p>自动编号的公式可以用如下方法表示：<br>若需要手动编号，参见 <strong>14大括号和行标的使用</strong>。</p>
+</li>
+<li><p>自动编号的公式可以用如下方法表示：  </p>
 <pre class=" language-java"><code class="language-java">\begin<span class="token punctuation">{</span>equation<span class="token punctuation">}</span>
 数学公式
 \label<span class="token punctuation">{</span>eq<span class="token operator">:</span>当前公式名<span class="token punctuation">}</span>
 \end<span class="token punctuation">{</span>equation<span class="token punctuation">}</span></code></pre>
+</li>
+</ul>
 <p><strong>自动编号后的公式可在全文任意处使用 <code>\eqref{eq:公式名}</code> 语句引用。</strong></p>
 <ul>
 <li><p>例子：</p>
@@ -464,15 +474,14 @@ $$ 数学公式 $$
 <li><p>显示：$$ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，独立公式示例} $$</p>
 </li>
 <li><p>例子：</p>
-</li>
-</ul>
 <pre class=" language-java"><code class="language-java">在公式 \eqref<span class="token punctuation">{</span>eq<span class="token operator">:</span>sample<span class="token punctuation">}</span> 中，我们看到了这个被自动编号的公式。
 \begin<span class="token punctuation">{</span>equation<span class="token punctuation">}</span>
 E<span class="token operator">=</span>mc<span class="token operator">^</span><span class="token number">2</span> \text<span class="token punctuation">{</span>，自动编号公式示例<span class="token punctuation">}</span>
 \label<span class="token punctuation">{</span>eq<span class="token operator">:</span>Sample<span class="token punctuation">}</span>
 \end<span class="token punctuation">{</span>equation<span class="token punctuation">}</span></code></pre>
-<ul>
-<li>显示：</li>
+</li>
+<li><p>显示：</p>
+</li>
 </ul>
 <p>$$在公式 \eqref{eq:sample} 中，我们看到了这个被自动编号的公式。$$</p>
 <p>\begin{equation}<br>E=mc^2 \text{，自动编号公式示例}<br>\label{eq:sample}<br>\end{equation}</p>
@@ -483,12 +492,16 @@ E<span class="token operator">=</span>mc<span class="token operator">^</span><sp
 </li>
 <li><p>显示：$$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$</p>
 </li>
-</ul>
-<p>另外，如果要在左右两边都有上下标，可以用 <code>\sideset</code> 命令。</p>
-<ul>
-<li>例子：<pre class=" language-java"><code class="language-java">$$ \sideset<span class="token punctuation">{</span><span class="token operator">^</span>1_2<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token operator">^</span>3_4<span class="token punctuation">}</span>\bigotimes $$</code></pre>
+<li><p>例子：</p>
+<pre class=" language-java"><code class="language-java">$$<span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token operator">+</span>i<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">^</span><span class="token punctuation">{</span><span class="token number">8</span><span class="token punctuation">}</span>O<span class="token operator">^</span><span class="token punctuation">{</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">4</span><span class="token punctuation">}</span>$$</code></pre>
 </li>
-<li>显示：$$\sideset{^1_2}{^3_4}\bigotimes$$</li>
+<li><p>显示：$${(16+i)}^{8}O^{2+4}$$<br>如果要在左右两边都有上下标，可以用 <code>\sideset</code> 命令。</p>
+</li>
+<li><p>例子：</p>
+<pre class=" language-java"><code class="language-java">$$ \sideset<span class="token punctuation">{</span><span class="token operator">^</span>1_2<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token operator">^</span>3_4<span class="token punctuation">}</span>\bigotimes $$</code></pre>
+</li>
+<li><p>显示：$$\sideset{^1_2}{^3_4}\bigotimes$$</p>
+</li>
 </ul>
 <h2 id="3．输入括号和分隔符"><a href="#3．输入括号和分隔符" class="headerlink" title="3．输入括号和分隔符"></a>3．输入括号和分隔符</h2><p><code>()</code>、<code>[]</code> 和 <code>|</code> 表示符号本身，使用 <code>\{\}</code> 来表示 <code>{}</code> 。当要显示大号的括号或分隔符时，要用 <code>\left</code> 和 <code>\right</code> 命令。</p>
 <p>一些特殊的括号：  </p>
@@ -1495,52 +1508,51 @@ $$</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/08/09/markdown-math-数学公式语法/">
+                <a href="/2019/09/03/019icpc南京网络赛/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Markdown math 数学公式语法">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="2019icpc南京网络赛">
                         
-                        <span class="card-title">Markdown math 数学公式语法</span>
+                        <span class="card-title">2019icpc南京网络赛</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            最近写题老想写点公式，总结一下放这自己参考用
+                            F Greedy Sequence限制5000 ms 256 MB
+You’re given a permutation a of length n (1 ≤ n ≤ 105). For each i ∈ [1, n], construct
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-09
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/hexo/" class="post-category" target="_blank">
-                                    hexo
+                            <a href="/categories/ACM/" class="post-category" target="_blank">
+                                    ACM
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/markdown/" target="_blank">
-                        <span class="chip bg-color">markdown</span>
+                    <a href="/tags/algorithm/" target="_blank">
+                        <span class="chip bg-color">algorithm</span>
                     </a>
                     
-                    <a href="/tags/经验/" target="_blank">
-                        <span class="chip bg-color">经验</span>
+                    <a href="/tags/icpc/" target="_blank">
+                        <span class="chip bg-color">icpc</span>
                     </a>
                     
                 </div>
@@ -1721,7 +1733,7 @@ const long populat
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">7.9k</span>
+                <span class="white-color">10.1k</span>
             
 
             

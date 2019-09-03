@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanfff.github.io/"/>
-  <updated>2019-08-09T16:21:41.602Z</updated>
+  <updated>2019-09-03T07:26:19.630Z</updated>
   <id>http://fanfff.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown math 数学公式语法</title>
-    <link href="http://fanfff.github.io/2019/08/09/markdown-math-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E8%AF%AD%E6%B3%95/"/>
-    <id>http://fanfff.github.io/2019/08/09/markdown-math-数学公式语法/</id>
-    <published>2019-08-09T11:34:19.000Z</published>
-    <updated>2019-08-09T16:21:41.602Z</updated>
+    <title>2019icpc南京网络赛</title>
+    <link href="http://fanfff.github.io/2019/09/03/019icpc%E5%8D%97%E4%BA%AC%E7%BD%91%E7%BB%9C%E8%B5%9B/"/>
+    <id>http://fanfff.github.io/2019/09/03/019icpc南京网络赛/</id>
+    <published>2019-09-03T05:19:10.000Z</published>
+    <updated>2019-09-03T07:26:19.630Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,37 @@
       
         
         
-          &lt;h2 id=&quot;1．插入公式&quot;&gt;&lt;a href=&quot;#1．插入公式&quot; class=&quot;headerlink&quot; title=&quot;1．插入公式&quot;&gt;&lt;/a&gt;1．插入公式&lt;/h2&gt;&lt;p&gt;$\LaTeX$
+          &lt;h2 id=&quot;F-Greedy-Sequence&quot;&gt;&lt;a href=&quot;#F-Greedy-Sequence&quot; class=&quot;headerlink&quot; title=&quot;F Greedy Sequence&quot;&gt;&lt;/a&gt;F Greedy Sequence&lt;/h2&gt;&lt;p&gt;限制5000 ms
+        
+      
+    
+    </summary>
+    
+      <category term="ACM" scheme="http://fanfff.github.io/categories/ACM/"/>
+    
+    
+      <category term="algorithm" scheme="http://fanfff.github.io/tags/algorithm/"/>
+    
+      <category term="icpc" scheme="http://fanfff.github.io/tags/icpc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown math 数学公式语法</title>
+    <link href="http://fanfff.github.io/2019/08/09/markdown-math-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E8%AF%AD%E6%B3%95/"/>
+    <id>http://fanfff.github.io/2019/08/09/markdown-math-数学公式语法/</id>
+    <published>2019-08-09T11:34:19.000Z</published>
+    <updated>2019-08-13T06:15:19.298Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1．插入公式&quot;&gt;&lt;a href=&quot;#1．插入公式&quot; class=&quot;headerlink&quot; title=&quot;1．插入公式&quot;&gt;&lt;/a&gt;1．插入公式&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;行中公式可以用如下方法表示：&lt;/p&gt;
+&lt;pre class=&quot;
         
       
     
