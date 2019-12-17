@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanfff.github.io/"/>
-  <updated>2019-10-14T06:06:59.745Z</updated>
+  <updated>2019-12-17T10:18:42.181Z</updated>
   <id>http://fanfff.github.io/</id>
   
   <author>
@@ -15,6 +15,96 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我想做个DOTA2的RPG</title>
+    <link href="http://fanfff.github.io/2019/12/17/%E6%83%B3%E5%81%9A%E4%B8%AADOTA2%E7%9A%84RPG/"/>
+    <id>http://fanfff.github.io/2019/12/17/想做个DOTA2的RPG/</id>
+    <published>2019-12-17T02:55:12.000Z</published>
+    <updated>2019-12-17T10:18:42.181Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;制作一款属于你自己的游戏，不仅仅需要热情，还要坚持的毅力以及足够多的业余&lt;/strong&gt;&lt;br&gt;资料来源：&lt;a href=&quot;http://www.dota2rpg.com&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spring boot</title>
+    <link href="http://fanfff.github.io/2019/11/21/pring-boot/"/>
+    <id>http://fanfff.github.io/2019/11/21/pring-boot/</id>
+    <published>2019-11-21T08:32:01.000Z</published>
+    <updated>2019-11-21T08:34:04.656Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;….&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>动态规划</title>
+    <link href="http://fanfff.github.io/2019/10/21/%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <id>http://fanfff.github.io/2019/10/21/态规划/</id>
+    <published>2019-10-21T07:18:32.000Z</published>
+    <updated>2019-10-21T08:57:35.822Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;递推&quot;&gt;&lt;a href=&quot;#递推&quot; class=&quot;headerlink&quot; title=&quot;递推&quot;&gt;&lt;/a&gt;递推&lt;/h2&gt;&lt;h3 id=&quot;hdu-2084-数塔&quot;&gt;&lt;a href=&quot;#hdu-2084-数塔&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>c++复(xue)习 </title>
+    <link href="http://fanfff.github.io/2019/10/16/-%E5%A4%8D-xue-%E4%B9%A0/"/>
+    <id>http://fanfff.github.io/2019/10/16/-复-xue-习/</id>
+    <published>2019-10-16T09:50:13.000Z</published>
+    <updated>2019-10-16T09:59:34.420Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;想到哪写到哪嗷&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;c-内存分区&quot;&gt;&lt;a href=&quot;#c-内存分区&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>最长公共/回文子序列/串</title>
@@ -205,11 +295,11 @@
   </entry>
   
   <entry>
-    <title>hello-world之狂喷宋溪桐</title>
+    <title>hello-world!</title>
     <link href="http://fanfff.github.io/2019/07/25/hello-world/"/>
     <id>http://fanfff.github.io/2019/07/25/hello-world/</id>
     <published>2019-07-25T08:23:00.000Z</published>
-    <updated>2019-08-03T08:09:07.032Z</updated>
+    <updated>2019-11-21T08:29:42.266Z</updated>
     
     <summary type="html">
     
@@ -217,8 +307,9 @@
       
         
         
-          &lt;p&gt;为庆祝本站顺利搭建，我将于此把hello-world文件修改为对宋溪桐-花老板的无上赞美，献祭鸽子王对摸黑天团的至高贡献，来预祝Fanfff小站日益升腾！&lt;/p&gt;
-&lt;h2 id=&quot;宋溪桐七宗罪&quot;&gt;&lt;a href=&quot;#宋溪桐七宗罪&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;突发奇想弄一个自己的博客，用来平常扯犊子说批话用&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_36344542&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;旧站连接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
         
       
     
