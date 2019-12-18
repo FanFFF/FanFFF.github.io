@@ -4,9 +4,9 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Spring boot, FanFFF的无聊博客">
-    <meta name="description" content="….
-">
+    <meta name="keywords" content="我想做个DOTA2的RPG（一）, FanFFF的无聊博客">
+    <meta name="description" content="制作一款属于你自己的游戏，不仅仅需要热情，还要坚持的毅力以及足够多的业余资料来源：http://www.dota2rpg.com知乎专栏—DOTA2自定义游戏开发
+基本概念：–名词解释：d2wt  —— Dota 2 Workshop To">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +14,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Spring boot | FanFFF的无聊博客</title>
+    <title>我想做个DOTA2的RPG（一） | FanFFF的无聊博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -261,13 +261,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/my-img/sf2.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Spring boot
+                        我想做个DOTA2的RPG（一）
                     </div>
                 </div>
             </div>
@@ -382,8 +382,8 @@
                                 <span class="chip bg-color">经验</span>
                             </a>
                         
-                            <a href="/tags/springboot/" target="_blank">
-                                <span class="chip bg-color">springboot</span>
+                            <a href="/tags/dota2/" target="_blank">
+                                <span class="chip bg-color">dota2</span>
                             </a>
                         
                     </div>
@@ -394,8 +394,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/java/" class="post-category" target="_blank">
-                                java
+                            <a href="/categories/dota2/" class="post-category" target="_blank">
+                                dota2
                             </a>
                         
                     </div>
@@ -406,21 +406,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-11-21
+                    2019-12-01
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        0
+                        1.7k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        6 分
                     </div>
                     
                 
@@ -437,7 +437,24 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>….</p>
+                <p><strong>制作一款属于你自己的游戏，不仅仅需要热情，还要坚持的毅力以及足够多的业余</strong><br>资料来源：<a href="http://www.dota2rpg.com" target="_blank" rel="noopener">http://www.dota2rpg.com</a><br>知乎专栏—DOTA2自定义游戏开发</p>
+<h2 id="基本概念："><a href="#基本概念：" class="headerlink" title="基本概念："></a>基本概念：</h2><p>–名词解释：<br><strong>d2wt</strong>  —— Dota 2 Workshop Tools，也就是地图编辑所使用的工具<br><strong>addon</strong>、自定义地图、自定义游戏、MOD  —— 在本文中 大部分时候它们是同义词，代指地图<br><strong>Lua</strong>—— DOTA2地图所使用的简单编程脚本<br><strong>KV</strong>—— KeysValue 用于制作单位\物品\技能\英雄等游戏中所用基础数据，树状结构的数据表<br><strong>DOTA2安装目录</strong> —— 一般为“（Steam/完美客户端安装目录）/SteamApps/common/dota 2 beta”<br><strong>施工中的自定义地图存放目录</strong> —— 一般为“（Steam/完美客户端安装目录）\steamapps\common\dota 2 beta”</p>
+<p>编辑器模块<br><strong>地形</strong>（其编辑工具名为“Hammer”）<br><strong>编码</strong>（分为KeyValue（简称KV）编辑和Lua代码两部分）<br><strong>模型</strong>（为地图导入自有的模型）<br><strong>声音</strong>（编辑已有或导入自有的声音）<br><strong>粒子</strong>（使用粒子编辑器（PET）以编辑已有或自建全新的粒子特效）<br><strong>自定义用户界面</strong>（创建Adobe Flash文件以扩展或修改已有的DotA2用户界面）</p>
+<h2 id="操作手册"><a href="#操作手册" class="headerlink" title="操作手册"></a>操作手册</h2><h3 id="地图地形开发"><a href="#地图地形开发" class="headerlink" title="地图地形开发"></a>地图地形开发</h3><p>目录：Steam\steamapps\common\dota 2beta\dota_ugc\content\dota_addons\test<br>文件夹包含了这个项目的地图，材质贴图，模型，UI，源码等等。<br>打开Hammer→file→new<br><img src="/images/pasted-18.png" alt="Asset Browset资源管理器工具栏"><br>Hammer    ——地图编辑器<br>MaterialEditor tool    ——材质编辑器<br>ModelEditor tool      ——模型编辑器<br>ParticleEditor tool    ——粒子编辑器</p>
+<p>界面键鼠操作说明：<br>鼠标右键是扭头转视角，鼠标滚轮滚动拉近/拉远视角，ALT+鼠标左键是以你点击的点为中心旋转，ALT+鼠标右键也是拉近缩短视角，不过比滚轮平滑，ALT+鼠标中键按下拖动视角。<br><img src="/images/pasted-20.png" alt="tile editor mode"><br>地形、水、台阶、树木、草地、标志物/建筑、批量选择、禁止选择。</p>
+<h4 id="地形笔刷"><a href="#地形笔刷" class="headerlink" title="地形笔刷"></a>地形笔刷</h4><p>鼠标左键：建立一层地形，再在这个地形上点击就是两层的地形，地形会根据你的层数会有不同的美化，层数可以无限加，但是考虑到游戏内的因素，一般5~6层就封顶了。<br>Ctrl+左键是降低一层，shift+左键是按照你目前点击的那个那个高度刷地形，刷到底地方直接变成那个高度。按住鼠标中键左右摆动是用来调节笔刷大小，也就是圈的大小，鼠标不动按G/B则为在当前区域内提升/降低一个台阶。<br><img src="/images/pasted-21.png" alt="地形笔刷"></p>
+<h4 id="水体笔刷"><a href="#水体笔刷" class="headerlink" title="水体笔刷"></a>水体笔刷</h4><p>与地形一样，左键/ctrl+左键<br><img src="/images/pasted-22.png" alt="水体笔刷"></p>
+<h4 id="台阶笔刷"><a href="#台阶笔刷" class="headerlink" title="台阶笔刷"></a>台阶笔刷</h4><p>台阶的话有两个用途，第一个就是作为层与层之间的连接,第二是造一个路径，要注意，利用台阶刷造出的路径不能种树和花，操作同上。<br><img src="/images/pasted-23.png" alt="台阶"></p>
+<h4 id="树木笔刷"><a href="#树木笔刷" class="headerlink" title="树木笔刷"></a>树木笔刷</h4><p><img src="/images/pasted-24.png" alt="树木属性"><br>这两个是笔刷大小和稀疏度，鼠标左键：创建树木<br>Ctrl+鼠标左键：移除树木<br>Shift+鼠标左键：增加树木的量：无→第一层→第二层→第三层<br>Ctrl+Shift+鼠标左键：减少树木的量：第三层→第二层→第一层→无<br>G+鼠标左键：增加树木高度：与增加数目的量的区别是这个不会增加新的树木，即-第一层→第二层→第三层<br>B+鼠标左键：减少树木高度：与减少数目的量的区别是这个不会减少树木，即-第三层→第二层→第一层<br>C+鼠标左键：改变树木风格,树木的风格可以在Tree Type栏内选择</p>
+<p><img src="/images/pasted-25.png" alt="树木风格"><br>按下滚轮+鼠标左右拖动：改变刷子半径，往左缩小往右放大<br>Ctrl+按下滚轮+鼠标左右移动：改变刷子密度</p>
+<p><img src="/images/pasted-26.png" alt="树木笔刷"></p>
+<h4 id="草地笔刷"><a href="#草地笔刷" class="headerlink" title="草地笔刷"></a>草地笔刷</h4><p>操作与树木笔刷相似。<br><img src="/images/pasted-27.png" alt="草地"></p>
+<h4 id="装饰物笔刷"><a href="#装饰物笔刷" class="headerlink" title="装饰物笔刷"></a>装饰物笔刷</h4><p>鼠标左键点击：增加装饰物<br>Ctrl+鼠标左键：移除装饰物<br>鼠标左键拖动：拖动装饰物<br>Shift+鼠标左键拖动：复制一个装饰物并且拖动复制出来的装饰物<br>X+鼠标左键：旋转装饰物<br>F：变成下一个装饰物形态（首先你要用鼠标光标移动到一个装饰物上面）<br>V：变成上一个装饰物形态（首先你要用鼠标光标移动到一个装饰物上面）<br>N：切换风格设置：比如从天辉军团切换到夜魇军团<br><img src="/images/pasted-28.png" alt="装饰物"></p>
+<h4 id="批量选择工具"><a href="#批量选择工具" class="headerlink" title="批量选择工具"></a>批量选择工具</h4><p>选择<br>　　鼠标左键：选择物体<br>　　Ctrl+鼠标左键：取消选择物体<br>　　Esc：清空选择<br>　　按下滚轮：套索选择<br>　　X+按下滚轮：矩形选框<br>　　Ctrl+V：直接粘贴在鼠标光标停留的位置（首先你要复制内容）<br>　　Ctrl+Shift+V：粘贴并选择粘贴在哪里，并且一直持续粘贴内容，按ESC结束<br>　　G：将选择的地形向上抬高一步<br>　　B：将选择的地形向下抬低一步<br>　　N：切换风格设置：比如从天辉军团切换到夜魇军团<br>　　Selected items按钮介绍：<br>　　Next Varition：切换到下一个形态<br>　　PreviousVariation：切换到上一个形态<br>　　RandomVariation：切换到随机的一个形态<br>　　Collapse：分离<br>　　Next Tile Set：切换到下一个地砖设置（比如说天辉的绿草地切换到夜魇的灰地板）<br>　　Previous TileSet：切换到上一个地砖设置<br>Assign Current Tile Set：切换到当前的地砖设置  </p>
+<h4 id="实体与编译"><a href="#实体与编译" class="headerlink" title="实体与编译"></a>实体与编译</h4><p>一张基本的地形图，除了包含地形要素外，还需要添加实体，例如天辉或者夜魇玩家的出生点。这一些出生点实体非常重要！少了它们，地图将不可能正确编译！<br>在Prefabs里面，选择basic_entities这一个vmap，拖入到地图中。<br>或者拖basic_entities_radiantbasic_entities_dire到地图中的位置。<br>这些实体，是天辉/夜魇方的玩家的出生位置，他们的位置你可以根据你的地图的需要确定</p>
+<p><img src="/images/pasted-29.png" alt="不到啥玩意"><br>托到想要的出生地就可以了<br>几个概念<br><strong>entity （实体）</strong> - Dota2 里面所有逻辑单位都是实体，它可以接收事件或者产生事件或者存储某些信息，也可以在代码里通过 API 方便的找到某个实体。</p>
+<p><strong>Prefab（预制体）</strong> - 单个或多个实体或模型的一组合集，并且保存到了硬盘上，可以跨地图使用。每当你修改一个prefab，所有用到这个 Prefab 的地方也会同样变化。</p>
+<p><strong>Instance（实例）</strong>- 同样也是单个或多个实体或模型的一组合集，但是没有保存到硬盘上，不可以跨地图使用。也可以复制多份使用，修改其中一份（双击其中一个实体可以进行修改），就会影响到其他相同实例。</p>
 
             </div>
             <hr/>
@@ -600,7 +617,7 @@
         repo: 'blog-talk',
         owner: 'FanFFF',
         admin: ["fanfff"],
-        id: '2019-11-21T16-32-01',
+        id: '2019-12-01T19-34-19',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -625,30 +642,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/01/想做个DOTA2的RPG/">
+                <a href="/2019/12/03/lua/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/my-img/sf2.jpg" class="responsive-img" alt="我想做个DOTA2的RPG（一）">
                         
-                        <span class="card-title">我想做个DOTA2的RPG（一）</span>
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="lua">
+                        
+                        <span class="card-title">lua</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一时兴起，一步一步稳扎稳打吧。
+                            一个跟C/c++很像的语言，游戏逻辑主体。
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-01
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-03
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/dota2/" class="post-category" target="_blank">
-                                    dota2
+                            <a href="/categories/lua/" class="post-category" target="_blank">
+                                    lua
                                 </a>
                             
                             
@@ -659,11 +677,7 @@
                 <div class="card-action article-tags">
                     
                     <a href="/tags/经验/" target="_blank">
-                        <span class="chip bg-color">经验</span>
-                    </a>
-                    
-                    <a href="/tags/dota2/" target="_blank">
-                        <span class="chip bg-color">dota2</span>
+                        <span class="chip bg-color">-- 经验</span>
                     </a>
                     
                 </div>
@@ -677,31 +691,31 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/10/21/态规划/">
+                <a href="/2019/11/21/pring-boot/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="动态规划">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Spring boot">
                         
-                        <span class="card-title">动态规划</span>
+                        <span class="card-title">Spring boot</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            系统性的复习DP。
+                            java还是香的呀，学一手毕业设计用。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-21
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-21
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/ACM/" class="post-category" target="_blank">
-                                    ACM
+                            <a href="/categories/java/" class="post-category" target="_blank">
+                                    java
                                 </a>
                             
                             
@@ -715,8 +729,8 @@
                         <span class="chip bg-color">经验</span>
                     </a>
                     
-                    <a href="/tags/动态规划/" target="_blank">
-                        <span class="chip bg-color">动态规划</span>
+                    <a href="/tags/springboot/" target="_blank">
+                        <span class="chip bg-color">springboot</span>
                     </a>
                     
                 </div>
